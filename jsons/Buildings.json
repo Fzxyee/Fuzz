@@ -1,0 +1,95 @@
+[//建筑或奇观或国家奇观
+	{
+		"name": "祭台",//名字
+		"uniqueTo": "中国河南",//专属
+		"replaces": "Shrine",//代替
+		"requiredTech": "Pottery"//需要科技
+		"isNationalWonder": false,//判定是否国家奇观
+		"isWonder": false,//判定是否为奇观
+		"faith":1,
+		"culture": 1,//文化
+		"cost": 40,//需要多少产能
+		"uniques": []//能力
+		
+	},
+    {
+	    "name":"儒经院",
+	    "uniqueTo":"中国山东",
+	    "cost":75,
+	    "replaces":"Library"
+	    "faith":1,
+	    "uniques":["[+1 Science] per [2] population [in this city]"]
+	    "requiredTech": "Writing"
+	},
+	{
+	    "name":"盐场"
+	    "uniqueTo":"中国山东"
+	    "cost":75
+	    "replaces":"Lighthouse"
+	    "uniques":["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]"
+	    "[+1 Production] from [Coast] tiles [in this city]", "[+1 Production] from [Fish] tiles [in this city]" ]
+	    "requiredTech":"Optics"
+	},
+	{
+	    "name":"都护府",
+	    "replaces":"Courthouse",
+	    "uniqueTo":"中国陕西"
+	    "cost":90
+	    "cityHealth": 20
+	    "maintenance":2
+	    "uniques":["Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Mathematics"
+	},
+	{
+	    "name":"澎湖巡检司"
+	    "uniqueTo":"中国台湾"
+	    "replaces":"Harbor"
+	    "cost":120
+	    "maintenance":2
+	    "uniques":[
+	    "Must be next to [Coast]"
+	    "Connects trade routes over water"
+	    "[+1 Production] from [Water resource] tiles [in this city]"
+	    "[+20]% Production when constructing [Water] units [in this city]",]
+	    "requiredTech":"Compass"
+	}
+	{
+	    "name":"幽州台"
+	    "uniqueTo":"中国河北"
+	    "replaces":"Temple"
+	    "cost":80
+	    "culture":1
+	    "science":2
+	    "faith":2
+	    "maintenance":1
+	    "requiredTech":"Philosophy"
+	    },
+	    {
+	    "name":"雾凇观景台"
+	    "uniqueTo":"中国吉林"
+	    "replaces":"Windmill"
+	    "cost":220
+	    "culture":3
+	    "production": 2,
+        "specialistSlots": {"Engineer": 1},
+        "hurryCostModifier": 25,
+        "maintenance": 2,
+        "uniques": [
+            "[+10]% Production when constructing [All] buildings [in this city]",
+            "[+1 Production] from [Lakes] tiles [in this city]",]
+        "requiredTech":"Economics"
+        },
+        {
+        "name":"粤剧馆"
+        "replaces":"Amphitheater"
+        "uniqueTo":"中国广东"
+        "cost":80
+        "culture":4
+        "maintenance":1
+        "specialistSlots": {"Artist": 2}
+        "uniques": [
+        "Destroyed when the city is captured",],
+        "requiredTech": "Drama and Poetry"
+        }
+	]

@@ -1,0 +1,12 @@
+[	
+	//资源
+	{
+		"name": "劳动力",
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"
+		"Not shown on world screen"
+		"Resource Measurement Item"]
+	},
+	]
