@@ -1,0 +1,231 @@
+[
+	{
+	//河南
+		"name": "中国河南",//文明名字
+		"leaderName": "赵匡胤",//领导人
+		"personality": "河南",//个性称呼
+		"adjective": ["河南"],//形容词
+		"startBias": ["[Grassland]"],//初始点偏向
+        "startIntroPart1": "河南是中国历史最为悠久的地区，是中华文化的发源地",//介绍
+        "declaringWar": "我们要求更多的土地来种田",//宣战其他文明
+		"attacked": "人民的力量会碾碎你们的！",//被其他文明宣战回应
+		"defeated": "呜呜呜，我们败了，请善待我们的土地与人民",//战败		
+		"introduction": "你好呀，我们来交易粮食吧",//向其他文明打招		
+		"neutralHello": "来！",//中立的贸易介绍
+		"hateHello": "别打了，我们要种田",//敌对的贸易介绍
+		"tradeRequest": "中原人民将不会忘了您的恩惠的",//贸易请求
+		"outerColor": [214, 145, 19],//外圈颜色
+		"innerColor": [90, 0, 10],//内圈颜色
+		"uniqueName": "中原粮仓",//能力名字
+		"uniques": [
+		"Comment [在研发文官制度后小麦地块增加一产能]"
+		"Comment [在研发制陶后前四座城市获得粮仓]"
+		"Provides a [Granary] in your first [4] cities for free <after discovering [Pottery]>"
+		"[+1 Production] from [Wheat] tiles [in all cities] <after discovering [Civil Service]>"]
+		"cities": ["郑州","汴京","洛阳","安阳","南阳","鹤壁","三门峡","信阳","商丘","许昌","驻马店","平顶山","焦作","新乡","济源","濮阳","漯河"]//
+		"spyNames": ["李","张","刘","赵"]//间谍名    
+    },
+    {
+    //山东
+        "name":"中国山东"
+        "leaderName":"孔夫子"
+        "startBias":["[Plains]"]
+        "startItroPart1":"山东是中国东部产业大省，也是人才辈出的地方，如历史中的孔子、王羲之、李清照等"
+        "declaringWar":"我们要宣传儒家思想"
+        "attacked":"请仁政"
+        "defeated":"兵家恐怖如斯"
+        "introduction":"兼爱"
+        "neutralHello":"来！"
+        "hateHello":"让我们和平共处"
+        "tradeRequeast":"谢谢你"
+        "outerColor":[139, 69, 19]
+        "InnerColor":[255, 153, 51]
+        "uniqueName":"孔孟之乡"
+        "uniques":[
+        "[+2 Faith, +1 Culture] per [2] population [in capital]"]
+        "cities":["济南","青岛","淄博","枣庄","烟台","东营","日照","威海","滩坊","泰安","临沂","德州","菏泽","滨州"]
+        "spyName":["刘","张","赵","李"]
+    },
+    {
+    //陕西
+        "name":"中国陕西"
+        "leaderName":"李隆基"
+        "startItroPart1":"长安历史悠久，秦汉隋唐的首都，在中国历史中一直处于关键地位"
+        "outerColor":[155,44,24]
+        "InnerColor":[211,204,27]
+        "uniqueName":"开元盛世"
+        "uniques":[
+        "[+3]% [Production] <when above [0] Happiness>"
+        "[+5]% [Production] <when above [4] Happiness>"
+        "[+3]% [Production] <when above [9] Happiness>"
+        "[+5]% [Science] <when above [4] Happiness>"
+        "[+5]% [Culture] <when above [4] Happiness>"
+        "[+5]% [Science] <when above [9] Happiness>"
+        "[+5]% [Culture] <when above [9] Happiness>"
+        "[-10]% [Production] <when below [-5] Happiness>"]
+        "cities":["长安","宝鸡","咸阳","铜川","渭南","延安","榆林","汉中","安康","商洛"]
+        "spyName":["刘","张","赵","李"]
+        },
+        {
+        //台湾
+        "name":"中国台湾"
+        "leaderName":"郑成功"
+        "startBias":["[Coast]"],
+        "startltroPart1":"台湾是中国不可分割的一部分，它位于大陆东南方向，具有不可忽略的战略地位"
+        "outerColor":[185, 201, 223]
+        "InnerColor":[0, 53, 128]
+        "uniqueName":"东南苦行山"
+        "uniques":[
+        "[-25]% maintenance costs <when not at war> <for [All] units>"
+        "[+125]% Strength <when defending> <for [Embarked] units>"
+        "[+10]% Strength <when fighting units from a Civilization with more Cities than you>"]
+        "cities":["台北","新北","桃园","台中","台南","高雄","基隆","新竹","嘉义","宜兰","花莲","台东","澎湖","金门","连江"]
+        "spyName":["刘","张","赵","李"]
+        },
+        {
+        "name":"中国河北"
+        "leaderName":"朱棣"
+        "startBias":["[Plains]"]
+        "startltroPart1":"河北是中国北方最为重要的省份，有着强大的工业与人文底蕴",
+        "outerColor":[254,204,32]
+        "InnerColor":[0,55,106]
+        "uniqueName":"永乐大典"
+        "uniques":[
+        "[+15]% [Science] [in capital] <after discovering [Writing]>"
+        "[+7]% [Culture] [in capital] <after discovering [Philosophy]>"
+        "Free Social Policy <after discovering [Education]>"
+        "Resting point for Influence with City-States is increased by [15] <after discovering [Compass]>"]
+        "cities":["石家庄","唐山","秦皇岛","邯郸","邢台","保定","张家口","承德","沧州","廊坊","衡水"]
+        },
+        {
+        "name":"中国吉林"
+        "leaderName":"爱新觉罗-玄烨"
+        "startBias":["[Forest]"]
+        "outerColor":[255,227,151]
+        "InnerColor":[191,25,39]
+        "uniqueName":"八旗"
+        "uniques":[
+        "Comment [所有的近程单位+1攻击次数]"
+        "Comment [文明来自Rek_Remix_by_Dsb.感兴趣可以去游戏内模组下载]"
+		"[Sword] units gain the [八旗子弟兵] promotion <hidden from users>",]
+		"cities":["长春","吉林","四平","辽源","通化","白山","松原","白城"]
+		}
+		{
+		"name":"中国广东"
+		"leaderName":"邓小平"
+		"startBias":["[Coast]"]
+		"outerColor":[64, 138, 178]
+		"InnerColor":[244, 244, 86]
+		"uniqueName":"改革春风"
+		"uniques":[
+		"[+25]% [Gold] [in all cities]"
+		"[+2 Gold, +2 Science] from every specialist [in all cities]"
+		"Provides [1] [劳动力] <for every [1] [Cities]>  <hidden from users>"
+		"Comment [每有一个城市，首都加5%的产能]"
+		"[+5]% [Production] [in capital] <when between [1] and [1] [劳动力]> <hidden from users>"
+		"[+10]% [Production] [in capital] <when between [2] and [2] [劳动力]>  <hidden from users>"
+		"[+15]% [Production] [in capital] <when between [3] and [3] [劳动力]>  <hidden from users>"
+		"[+20]% [Production] [in capital] <when between [4] and [4] [劳动力]>  <hidden from users>"
+		"[+25]% [Production] [in capital] <when between [5] and [5] [劳动力]>  <hidden from users>"
+		"[+30]% [Production] [in capital] <when between [6] and [6] [劳动力]>  <hidden from users>"
+		"[+35]% [Production] [in capital] <when between [7] and [7] [劳动力]>  <hidden from users>"
+		"[+40]% [Production] [in capital] <when between [8] and [8] [劳动力]>  <hidden from users>"
+		"[+45]% [Production] [in capital] <when between [9] and [9] [劳动力]>  <hidden from users>"]
+		"cities":["广州","深圳","珠海","汕头","佛山","韶关","湛江","肇庆","江门","茂名","惠州","梅州","汕尾","河源","阳江","清远","东莞","中山","潮州","揭阳","云浮"]
+		}
+		{"name":"中国湖北"
+        "leaderName":"孙中山"
+        "startBias":["[Plains]"]
+        "startltroPart1":"湖北位于中华中央，是千古兵家必争之地",
+        "outerColor":[3, 16, 230]
+        "InnerColor":[255, 148, 10]
+        "uniqueName":"天下大同"
+        "uniques":["Resting point for Influence with City-States is increased by [10]"
+        "[-50]% City-State Influence degradation"
+        "[+20]% [Culture] from City-States",
+        "[+20]% [Food] from City-States",
+        "[+20]% [Faith] from City-States",
+        "[+20]% [Happiness] from City-States",
+        "[+20]% Happiness from luxury resources gifted by City-States",
+        "Military Units gifted from City-States start with [+5] XP"]
+        "cities":["武汉","黄石","十堰","宜昌","襄阳","鄂州","荆门","孝感","荆州","黄冈","咸宁","随州"]
+        }
+        {"name":"中国甘肃"
+        "leaderName":"元昊"
+        "startltroPart1":"hi",
+        "outerColor":[57,57,57]
+        "InnerColor":[245,45,45]
+        "uniqueName":"雄关漫漫"
+        "uniques":[
+        "[+1 Production, +1 Culture, +1 Happiness] from every [Walls]",
+        "[+1 Production, +1 Culture, +1 Happiness] from every [Castle]",
+        "[+1 Production, +1 Culture, +1 Happiness] from every [Barracks]"]
+        "cities":["兰州","嘉峪关","金昌","白银","天水","武威","张掖","平凉","酒泉","庆阳","定西","陇南","玉门","敦煌","合作","临夏","永登","皋兰","榆中","靖远","会宁","景泰","秦安","甘谷","武山","清水","张家川","民勤","古浪","天祝","山丹","民乐","临泽","高台","肃南","灵台","泾川","崇信","华亭","庄浪","静宁","西峰","宁县","镇原","合水","华池","环县","庆城","通渭","陇西","渭源","临洮","漳县","岷县","成县","康县","文县","宕昌","西和","礼县","两当","徽县"]
+        }
+        {"name": "中国江苏",//文明名字
+		"startBias": ["[Grassland]"],//初始点偏向
+		"startItroPart1":"江苏位于中国东部，是经济与人口的集中地区"
+		"outerColor": [16, 106, 53],//外圈颜色
+		"innerColor": [242, 251, 245],//内圈颜色
+		"uniqueName": "江南人才",//能力名字
+		"uniques": ["[+2]% Strength <for [all] units> <when between [2] and [3] [战功]> <hidden from users>"
+        "[+4]% Strength <for [all] units> <when between [4] and [5] [战功]> <hidden from users>"
+        "[+6]% Strength <for [all] units> <when between [6] and [7] [战功]> <hidden from users>"
+        "[+8]% Strength <for [all] units> <when between [8] and [9] [战功]> <hidden from users>"
+        "[+10]% Strength <for [all] units> <when between [10] and [999] [战功]> <hidden from users>"
+        "[-1]% [Culture] <when between [2] and [3] [战功]> <hidden from users>"
+        "[-2]% [Culture] <when between [4] and [5] [战功]> <hidden from users>"
+        "[-3]% [Culture] <when between [6] and [7] [战功]> <hidden from users>"
+        "[-4]% [Culture] <when between [8] and [9] [战功]> <hidden from users>"
+        "[-5]% [Culture] <when between [10] and [999] [战功]> <hidden from users>"
+		"Comment [这些人才有可能不是江苏人，但绝对在这个地方居住很久]"
+		"Comment [每个时代的人才只能同时拥有一个]"
+		"Comment [「远古」伍子胥：每击杀一个单位获得一个「金鞭」，每2个金鞭增加2%力，减少1%文化，上限为10个金鞭]"
+		"Comment [「远古」季礼：在万神殿之前只有首都加1信仰，万神殿之后首都再加3文化]"
+		"Comment [「中古」顾恺之：每个城市+15%文化和10%金钱]"
+		"Comment [「中古」谢玄：对阵比自己城市多的文明+10%力]"
+		"Comment [「工业」蒋中正：每个城市+30%金钱，军队战斗力-5%]"
+		"Comment [「工业」许世友：近战部队移动力+1]"
+		"Provides [1] [远古人才] <starting from the [Ancient era]> <hidden from users>"
+		"Provides [1] [中古人才] <starting from the [Medieval era]> <hidden from users>"
+		"Provides [1] [工业人才] <starting from the [Industrial era]> <hidden from users>"
+		
+		],//能力
+		"cities": ["南京","无锡","徐州","常州","苏州","南通","连云港","淮安","盐城","扬州","镇江","泰州","宿迁"],//城市名
+        }   
+        {
+        "name":"中国江西",
+        "leaderName":"王安石",
+        "outerColor":[216,103,12],
+        "innerColor":[76,31,7],
+        "uniqueName":"赣江商陆"
+        "uniques":["[+2 Culture] [in all cities] <in [River] tiles>"
+        "[+2 Gold, +1 Culture] from each Trade Route"
+        "[+1 Happiness] [in all cities] <after discovering [Masonry]>"]
+        "cities":["南昌","景德镇","萍乡","九江","新余","鹰潭","赣州","吉安","宜春","抚州","上饶"]
+	     }
+	     {
+	     "name":"中国山西"
+	     "leaderName":"重耳"
+	     "outerColor":[199, 176, 97]
+	     "innerColor":[92, 43, 43]
+	     "uniqueName":"华北晋矿"
+	     "uniques":[
+            "[+1 Gold] from every [Mine]",
+            "[-25]% construction time for [Mine] improvements"
+	        "Double quantity of [Coal] produced"
+	     ]
+	     "cities":["太原","大同","阳泉","长治","晋城","朔州","晋中","运城","忻州","临汾","吕梁"]
+	     }
+	     {
+	     "name":"中国福建"
+	     "leaderName":"朱熹"
+	     "outerColor":[65, 58, 21]
+	     "innerColor":[157, 201, 107]
+	     "uniqueName":"峰回路转"
+	     "uniques":["[-67]% construction time for [Road] improvements",
+            "[-34]% construction time for [Railroad] improvements",
+            "[+1 Gold] from each Trade Route",]
+         "cities":["福州","厦门","莆田","三明","泉州","漳州","南平","龙岩","宁德"]
+	     }
+			]	

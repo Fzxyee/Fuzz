@@ -1,0 +1,48 @@
+[	
+	//资源
+	{
+		"name": "劳动力",
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"
+		"Not shown on world screen"
+		"Resource Measurement Item"]
+	},
+	{
+		"name": "远古人才",
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"
+		"Not shown on world screen"
+		"Resource Measurement Item"]
+	}	
+	{
+	"name": "战功",
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"
+		"Not shown on world screen"
+		"Resource Measurement Item"]
+	}	
+	{
+		"name": "中古人才",
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"
+		"Not shown on world screen"
+		"Resource Measurement Item"]
+	}	
+	{
+		"name": "工业人才",
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"
+		"Not shown on world screen"
+		"Resource Measurement Item"]
+	}	
+	]

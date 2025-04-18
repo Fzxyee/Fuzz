@@ -1,0 +1,246 @@
+[//建筑或奇观或国家奇观
+	{
+		"name": "祭台",//名字
+		"uniqueTo": "中国河南",//专属
+		"replaces": "Shrine",//代替
+		"requiredTech": "Pottery"//需要科技
+		"isNationalWonder": false,//判定是否国家奇观
+		"isWonder": false,//判定是否为奇观
+		"faith":1,
+		"culture": 1,//文化
+		"cost": 40,//需要多少产能
+		"uniques": []//能力
+		
+	},
+    {
+	    "name":"儒经院",
+	    "uniqueTo":"中国山东",
+	    "cost":75,
+	    "replaces":"Library"
+	    "faith":1,
+	    "uniques":["[+1 Science] per [2] population [in this city]"]
+	    "requiredTech": "Writing"
+	},
+	{
+	    "name":"盐场"
+	    "uniqueTo":"中国山东"
+	    "cost":75
+	    "replaces":"Lighthouse"
+	    "uniques":["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]"
+	    "[+1 Production] from [Coast] tiles [in this city]", "[+1 Production] from [Fish] tiles [in this city]" ]
+	    "requiredTech":"Optics"
+	},
+	{
+	    "name":"都护府",
+	    "replaces":"Courthouse",
+	    "uniqueTo":"中国陕西"
+	    "cost":90
+	    "cityHealth": 20
+	    "maintenance":2
+	    "uniques":["Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Mathematics"
+	},
+	{
+	    "name":"澎湖巡检司"
+	    "uniqueTo":"中国台湾"
+	    "replaces":"Harbor"
+	    "cost":120
+	    "maintenance":2
+	    "uniques":[
+	    "Must be next to [Coast]"
+	    "Connects trade routes over water"
+	    "[+1 Production] from [Water resource] tiles [in this city]"
+	    "[+20]% Production when constructing [Water] units [in this city]",]
+	    "requiredTech":"Compass"
+	}
+	{
+	    "name":"幽州台"
+	    "uniqueTo":"中国河北"
+	    "replaces":"Temple"
+	    "cost":80
+	    "culture":1
+	    "science":2
+	    "faith":2
+	    "maintenance":1
+	    "requiredTech":"Philosophy"
+	    },
+	    {
+	    "name":"雾凇观景台"
+	    "uniqueTo":"中国吉林"
+	    "replaces":"Windmill"
+	    "cost":220
+	    "culture":3
+	    "production": 2,
+        "specialistSlots": {"Engineer": 1},
+        "hurryCostModifier": 25,
+        "maintenance": 2,
+        "uniques": [
+            "[+10]% Production when constructing [All] buildings [in this city]",
+            "[+1 Production] from [Lakes] tiles [in this city]",]
+        "requiredTech":"Economics"
+        },
+        {
+        "name":"粤剧馆"
+        "replaces":"Amphitheater"
+        "uniqueTo":"中国广东"
+        "cost":80
+        "culture":4
+        "maintenance":1
+        "specialistSlots": {"Artist": 2}
+        "uniques": [
+        "Destroyed when the city is captured",],
+        "requiredTech": "Drama and Poetry"
+        }
+        {"name":"驿站"
+        "replaces":"Market"
+        "uniqueTo":"中国甘肃"
+        "cost":100
+        "gold":4
+        "specialistSlots": {"Merchant": 1},
+        "hurryCostModifier": 25,
+        "percentStatBonus": {"gold": 30},
+        "requiredTech": "Currency"
+        }
+        {"name":"白帝城"
+        "replaces":"Palace"
+        "uniqueTo":"中国湖北"
+        "cityHealth": 30
+        "production":3
+        "science":3
+	    "culture":1
+	    "gold":3
+	    "cityStrength": 5,
+	    "uniques":["Cannot be purchased",
+            "Only available <in cities with a [Palace]>",
+            "Destroyed when the city is captured"
+            "Indicates the capital city",]
+            }
+        {
+        "name":"黄鹤楼"
+        "cost":250
+        "isWonder": true
+        "culture":4
+        "uniques":["Free Great Person"]
+        "requiredTech": "Engineering"
+        "quote":"昔人已乘黄鹤去，此地空余黄鹤楼"
+        }
+        {
+        "name":"大运河"
+        "cost":400
+        "culture":1
+        "isWonder": true
+        "uniques":["[+1 Production] from [River] tiles [in all cities]"
+        "[+1 Gold] from [River] tiles [in all cities]",]
+        "requiredTech":"Machinery"
+        "quote":"虽然隋亡于此河，但其带来的影响却是不可估量的"
+        }
+        {"name":"伍子胥"
+        "uniqueTo":"中国江苏"
+        "uniques":["Provides [1] [金鞭] <upon defeating a [Land] unit> "
+        "Can only be built<in [in capital] cities>"
+        "Only available <in cities without a [季礼]>"]
+        "requiredResource": "远古人才"
+        }
+        {"name":"季礼"
+        "uniqueTo":"中国江苏"
+        "faith":1
+        "uniques":[
+        "[+3 Culture] [in capital] <after founding a Pantheon>"
+        "Can only be built<in [in capital] cities>"
+        "Only available <in cities without a [伍子胥]>"]
+        "requiredResource": "远古人才"
+        }
+        {"name":"顾恺之"
+        "uniqueTo":"中国江苏"
+        "uniques":["[+15]% [Culture] [in all cities]"
+        "Free [Great Artist] appears"
+        "[+10]% [Gold] [in all cities]"
+        "Can only be built<in [in capital] cities>"
+        "Only available <in cities without a [谢玄]>"]
+        "requiredResource": "中古人才"
+        }
+        {"name":"谢玄"
+        "uniqueTo":"中国江苏"
+        "uniques":["[+10]% Strength <when fighting units from a Civilization with more Cities than you>"
+        "Can only be built<in [in capital] cities>"
+        "Only available <in cities without a [顾恺之]>"]
+        "requiredResource": "中古人才"
+        }
+        {"name":"蒋中正"
+        "uniqueTo":"中国江苏"
+        "uniques":["[+30]% [Gold] [in all cities]"
+        "[-5]% Strength <for [all] units> "
+        "Can only be built<in [in capital] cities>"
+        "Only available <in cities without a [许世友]>"]
+        "requiredResource": "工业人才"
+        }
+        {"name":"许世友"
+        "uniqueTo":"中国江苏"
+        "uniques":["[+1] Movement <for [Land] units>"
+        "Can only be built<in [in capital] cities>"
+        "Only available <in cities without a [蒋中正]>"]
+        "requiredResource": "工业人才"
+        }
+        {
+        "name":"景德镇"
+        "replaces":"Mint"
+        "uniqueTo":"中国江西"
+        "gold":3
+        "happiness":2
+        "cost": 100,
+        "uniques": [
+        "[+2 Gold] from [Gold Ore] tiles [in this city]"
+        "[+2 Gold] from [Silver] tiles [in this city]"
+        "[+2 Gold] from [Copper] tiles [in this city]"
+        ],
+        "requiredTech": "Currency"
+        }
+        {"name":"妇好鸮尊"
+        "cost":125
+        "isWonder": true
+        "culture":1
+        "uniques":["All newly-trained [Land] units [in all cities] receive the [Ambush I] promotion"]
+        "quote":"感谢你游玩我的模组"
+        "requiredTech": "Bronze Working"
+        }
+        {
+        "name":"票号",
+        "replaces": "Bank",
+        "uniqueTo": "中国山西",
+        "gold": 2,
+        "uniques":["[+35]% [Gold] [in this city]"
+        ]
+        "specialistSlots": {"Merchant": 2},
+        "hurryCostModifier": 15,
+        "requiredBuilding": "Market",
+        "requiredTech": "Banking"
+        }
+        {
+        "name": "苏州园林",
+        "replaces": "Garden",
+        "uniqueTo": "中国江苏",
+        "cost": 120,
+        "culture":2
+        "uniques": ["[+20]% Great Person generation [in this city]"],
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredTech": "Drama and Poetry"
+        }
+        {
+        "name": "福州船政局",
+        "uniqueTo": "中国福建",
+        "replaces": "Harbor",
+        "cost": 120,
+        "cityStrength": 3,
+        "culture":1
+        "production": 2,
+        "maintenance": 2,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "Connects trade routes over water",
+            "[+1 Production] from [Water resource] tiles [in this city]",
+            "Must be next to [Coast]"]
+        "requiredTech": "Compass"
+        }
+	]

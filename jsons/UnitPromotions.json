@@ -1,0 +1,22 @@
+[
+    //晋升
+	{
+	    "name":"尊王攘夷",//名字
+		"uniques": ["[+100]% to Flank Attack bonuses"],//能力
+    },
+    {   "name":"大明的恩情还不完"
+        "uniques":["[Great General] is earned [75]% faster"]
+        },
+        {"name": "八旗子弟兵",
+        "uniques": ["[1] additional attacks per turn"],
+        },
+        {
+        "name":"白袍北伐"
+        "uniques":["[-25]% Strength decreasing with distance from the capital"]
+        }
+        {
+        "name":"报君黄金台上意"
+        "uniques":["Gives a defensive bonus of [10]%"
+        "Adjacent enemy units ending their turn take [5] damage"]
+        }
+    ]

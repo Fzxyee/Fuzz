@@ -1,0 +1,212 @@
+[
+//单位
+{
+		"name": "岳家军",//名字
+		"unitType": "Sword",//单位类型
+		"uniqueTo": "中国河南",//独属文明
+		"replaces": "Swordsman",//代替单位
+		"movement": 2,//移动力
+		"strength": 15,//攻击力
+		"rangedStrength": 0,//远程攻击力
+		"range": 1,//攻击范围
+		"cost": 75,//建造所需产能
+		"requiredTech": "Iron Working",//需要科技
+		"obsoleteTech": "Steel",//过时科技
+		"upgradesTo": "Longswordsman",//升级
+		"requiredResource": "Iron",
+		"uniques":["[+20]% Strength <when fighting in [Enemy Land] tiles>"
+		]//能力	
+		"attackSound": "metalhit"//攻击音效
+	},
+	{
+	    "name":"齐师",
+	    "unitType":"Sword",
+	    "uniqueTo":"中国山东",
+	    "replaces":"Spearman"
+	    "movement":2,
+	    "strength":11,
+	    "range":1,
+	    "cost":56,
+	    "requiredTech":"Bronze Working",
+	    "obsoleteTech":"Civil Service",
+	    "upgradesTo":"Pikeman",
+	    "uniques":["[+50]% Strength <vs [Mounted] units>"]
+	    "promotions":["尊王攘夷"]
+	    "attackSound":"metalhit",
+	},
+	{
+	    "name": "秦戈",//名字
+		"unitType": "Sword",//单位类型
+		"uniqueTo": "中国陕西",//独属文明
+		"replaces": "Spearman",//代替单位
+		"movement": 2,//移动力
+		"strength": 11,//攻击力
+		"range": 1,//
+		"cost": 56,//建造所需产能
+		"requiredTech": "Bronze Working",//需要科技
+		"obsoleteTech": "Civil Service",//过时科技
+		"upgradesTo": "Pikeman",//升级
+		"uniques":["[+50]% Strength <vs [Mounted] units>"]
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "metalhit"//攻击音效
+	    },
+	    {
+	    "name":"明战舰"
+	    "unitType":"Melee Water",
+	    "uniqueTo":"中国台湾",
+	    "replaces":"Caravel",
+	    "movement":4
+	    "strength":26
+	    "range":1
+	    "cost":120
+	    "requiredTech":"Astronomy"
+	    "obsoleteTech":"Combustion"
+	    "upgradesTo":"Ironclad"
+	    "attackSound":"cannon"
+	    "promotions":["Great Generals II", "Coastal Raider I"],
+	    }
+	    {
+	    "name":"神机营"
+	    "unitType":"Gunpowder"
+	    "uniqueTo":"中国河北"
+	    "replaces":"Musketman"
+	    "strength":28
+	    "movement":2
+	    "range":1
+	    "cost":160
+	    "promotions":["大明的恩情还不完"]
+	    "requiredTech":"Gunpowder"
+	    "obsoleteTech":"Rifling"
+	    "upgradesTo":"Rifleman"
+	    "attackSound":"cannon"
+	    }
+	    {
+	    "name":"神威无敌大将军炮"
+	    "unitType":"Gunpowder"
+	    "uniqueTo":"中国吉林"
+	    "replaces":"Cannon"
+	    "strength":12
+	    "rangedStrength": 20,//
+	    "movement":2
+	    "cost":200
+	    "range":3
+	    "requiredTech":"Chemistry"
+	    "obsoleteTech":"Dynamite"
+	    "upgradesTo":"Artillery"
+	    "uniques":["No defensive terrain bonus",
+            "Must set up to ranged attack",
+            "[-1] Sight",
+            "Never appears as a Barbarian unit"]
+	    "attackSound":"cannon"
+	    },
+	    {
+	    "name":"南洋水师"
+	    "unitType":"Ranged Water"
+	    "uniqueTo":"中国广东"
+	    "replaces":"Frigate"
+	    "strength":24
+	    "rangedStrength":26 ,//
+	    "movement":5
+	    "cost":150
+	    "range":2
+	    "requiredTech":"Navigation"
+	    "obsoleteTech":"Electronics"
+	    "upgradesTo":"Battleship"
+	    }
+	    {
+	    "name":"楚战车"
+	    "unitType":"Archery"
+	    "uniqueTo":"中国湖北"
+	    "replaces":"Chariot Archer"
+	    "strength":7
+	    "rangedStrength":12 ,//
+	    "movement":4
+	    "cost":66
+	    "range":2
+	    "requiredTech":"The Wheel"
+	    "obsoleteTech":"Chivalry"
+	    "upgradesTo":"Knight"
+	    "uniques": [
+            "No defensive terrain bonus",
+            "Rough terrain penalty"]
+        "requiredResource": "Horses"    
+	    }
+	    {
+        "name":"西凉铁骑",
+        "replaces":"Knight",
+        "uniqueTo": "中国甘肃",
+        "unitType": "Mounted",
+        "movement": 3,
+        "strength": 24,
+        "cost": 150,
+        "requiredTech": "Chivalry",
+        "obsoleteTech": "Military Science",
+        "upgradesTo": "Cavalry",
+        "requiredResource": "Horses",
+        "uniques": [
+            "[+100]% to Flank Attack bonuses",
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-20]% Strength <vs cities> <when attacking>",
+            "Can build [Road] improvements on tiles",
+        ]
+        "attackSound": "horse"
+    },
+    {"name": "白袍军",
+        "uniqueTo": "中国江苏",
+        "replaces": "Swordsman",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 19,
+        "cost": 75,
+        "requiredTech": "Iron Working",
+        "upgradesTo": "Longswordsman",
+        "obsoleteTech": "Steel",
+        "requiredResource": "Iron",
+        "promotions": ["白袍北伐"],
+        "attackSound": "metalhit"
+        }
+        {
+		"name": "江右团练",
+		"unitType": "Sword",
+		"replaces": "Pikeman",
+		"uniqueTo": "中国江西",
+		"movement": 2,
+		"strength": 16,
+		"cost": 70,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>" 
+		"[+50]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+		}
+		{
+        "name": "雁门戍卒",
+        "replaces": "Longswordsman",
+        "uniqueTo": "中国山西",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 23,
+        "cost": 120,
+        "requiredTech": "Chivalry",
+        "promotions": ["报君黄金台上意"],
+        "upgradesTo": "Musketman",
+        "obsoleteTech": "Gunpowder",
+        "requiredResource": "Iron",
+        "attackSound": "metalhit"
+    },
+   {
+   "name": "洋枪队",
+        "replaces": "Rifleman",
+        "uniqueTo": "中国福建",
+        "unitType": "Gunpowder",
+        "movement": 3,
+        "strength": 36,
+        "cost": 225,
+        "requiredTech": "Industrialization"
+        "obsoleteTech": "Replaceable Parts",
+        "upgradesTo": "Great War Infantry",
+        "attackSound": "shot"
+    },
+]   
